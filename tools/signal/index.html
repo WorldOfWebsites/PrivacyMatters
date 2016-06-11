@@ -26,6 +26,7 @@
 	 <img class="responsive-img img-middle" src="signal.png" alt="signal_logo"></img>
 	 <p>Signal Private Messenger is an easy to use messaging app by Open Whisper Systems. It employs end-to-end encryption for Signal contacts, and plaintext sms/mms. The app uses the Signal Protocol, which allows for forward secrecy and encrypted group chats where the server does not have any of the group metadata. The messages are encrypted at rest if you enable a passphrase on Android, and always on IOS. If sending a message to another Signal user, the message is encrypted <em>on the device</em> and sent to the server. Metadata is secured over HTTPS. The server never has access to any private keys at any point. All the code is open source and can be found on GitHub, which means you can go over the code to make sure nothing fishy is going on. If you don't trust the app store apk's, you can build from the source code (on Android at least).</p>
 	 <p>Registering is easy - all you need is a phone number where you can receive a text message or phone call.</p>
+	 <h2 class="center-align">Mobile</h2>
 	 <ul class="collection">
 	  <li class="collection-item">Select your country and enter your phone number. A phone number is your username. It allows other peple who have your phone number in their contacts to automatically sent encrypted messages to you.</li>
 	  <li class="collection-item">A text message with a verification code will arrive. If you are using Android, the code is automatically detected and entered. IOS users must enter the code themselves. If the message does not come through, or are registering a home phone's number, once the verification has timed out, press "call me" and the code will be spoken and you will enter the code.</li>
@@ -33,6 +34,16 @@
 	  <li class="collection-item">Signal will ask if you want to import your messages into its encrypted database. Tap on the message to say yes.</li>
 	  <li class="collection-item">Congratulations! You have now set up Signal. Happy chatting! You may wish to delete your messages from the old app since Signal uses a message database <em>other</em> than the database Android provides.</li>
 	 </ul>
+	 <h2 class="center-align">Desktop</h2>
+	 <p><b>The desktop app can only be activated by an Android phone at this time.</b></p>
+	 <ul class="collection">
+	  <li class="collection-item">Once you have installed the desktop app (link below), launch it and click "Get Started".</li>
+	  <li class="collection-item">On your Android phone, open settings, and open "Linked Devices".</li>
+	  <li class="collection-item">Click the + button and scan the QR code displayed on your computer screen.</li>
+	  <li class="collection-item">Give the device a name so you can identify and remove devices should the need arise.</li>
+	  <li class="collection-item">The app will generate keys and begin syncing your contacts.</li>
+	 </ul>
+	 <p>The app will only sync <em>future</em> messages, since there was no desktop key to encrypt to, and the forward secrecy ensures that the keys to decrypt old messages do not exist anymore.</p>
 	</div>
    </div>
   </div>
