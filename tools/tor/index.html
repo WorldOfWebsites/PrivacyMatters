@@ -34,10 +34,10 @@
    <div class="card">
     <div class="card-content">
 	 <h1 class="center-align">How does it work?</h1>
+	 <p>All images from the <a href="https://www.torproject.org/about/overview">Tor Project</a></p>
 	 <img class="responsive-img img-middle" src="htw1.png" alt="select nodes"></img>
 	 <img class="responsive-img img-middle" src="htw2.png" alt="tor network path"></img>
 	 <img class="responsive-img img-middle" src="htw3.png" alt="switch tor path"></img>
-	 <small>A big thanks to the <a href="https://www.torproject.org/about/overview">Tor Project</a> for the images!</small>
 	 <p>As you can see above, the Tor network builds a random path of three nodes around the world, and they only know the previous connection. The only time the connection is unencrypted is when traffic exits the Tor network to the internet. The path changes when the user does an unrelated action, like visiting a different website.</p>
 	</div>
    </div>
@@ -48,7 +48,24 @@
    <div class="card">
     <div class="card-content">
 	 <h1 class="center-align">Hidden Services</h1>
-	 <p>A hidden service is a website that you can only access through Tor. It uses the .onion domain, and the server learns nothing about you, and you learn nothing of the server. For example, the hidden service for DuckDuckGo is <a href="https://3g2upl4pq6kufc4m.onion/">https://3g2upl4pq6kufc4m.onion/</a>. Remember, this only works in Tor.</p>
+	 <p>A hidden service is a website that you can only access through Tor. It uses the .onion domain, and the server learns nothing about you, and you learn nothing of the server. For example, the hidden service for DuckDuckGo is <a href="https://3g2upl4pq6kufc4m.onion/">https://3g2upl4pq6kufc4m.onion/</a>. Remember, this only works in Tor. If using the https version (highly recomended), you will need to allow a security exception since the .onion domain is not part of the internet, just the Tor network.</p>
+	 <p>Hidden Services work as follows:</p>
+	 <img class="responsive-img img-middle" src="THS-1.png" alt="introduction circits"></img>
+	 <img class="responsive-img img-middle" src="THS-2.png" alt="advertise hidden service"></img>
+	 <img class="responsive-img img-middle" src="THS-3.png" alt="client finds address"></img>
+	 <img class="responsive-img img-middle" src="THS-4.png" alt="writes secret message"></img>
+	 <img class="responsive-img img-middle" src="THS-5.png" alt="server connects to client"></img>
+	 <img class="responsive-img img-middle" src="THS-6.png" alt="use tor as normal"></img>
+	</div>
+   </div>
+  </div>
+ </div>
+ <div class="row">
+  <div class="col s12 m12 l12">
+   <div class="card">
+    <div class="card-content">
+	 <h1 class="center-align">Bridges and Pluggable Transports</h1>
+	 <p>Sometimes, a direct connection into the Tor network is not possible due to censorship. That's where bridges, alternative entries into the Tor network come in, and to prevent deep packet inspection from knowing you're using Tor, pluggable transports come into the picture.</p>
 	</div>
    </div>
   </div>
