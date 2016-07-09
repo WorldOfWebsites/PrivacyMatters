@@ -24,7 +24,13 @@
    <div class="card">
     <div class="card-content">
 	 <img class="responsive-img img-middle" src="signal.png" alt="signal_logo"></img>
-	 <p>Signal Private Messenger is an easy to use messaging app by Open Whisper Systems. It employs end-to-end encryption for Signal contacts, and plaintext sms/mms. The app uses the Signal Protocol, which allows for forward secrecy and encrypted group chats where the server does not have any of the group metadata. The messages are encrypted at rest if you enable a passphrase on Android, and always on IOS. If sending a message to another Signal user, the message is encrypted <em>on the device</em> and sent to the server. Metadata is secured over HTTPS. The server never has access to any private keys at any point. All the code is open source and can be found on GitHub, which means you can go over the code to make sure nothing fishy is going on. If you don't trust the app store apk's, you can build from the source code (on Android at least).</p>
+	 <p>Signal Private Messenger is an easy to use messaging app by Open Whisper Systems. It employs end-to-end encryption for Signal contacts, and plaintext sms/mms. The app uses the Signal Protocol, also developed by Open Whisper Systems. The messages are encrypted at rest if you enable a passphrase on Android, and always on IOS. If sending a message to another Signal user, the message is encrypted <em>on the device</em> and sent to the server. Metadata is secured over HTTPS. The server never has access to any private keys at any point. All the code is open source and can be found on GitHub, which means you can go over the code to make sure nothing fishy is going on. If you don't trust the app store apk's, you can build from the source code (on Android at least).</p>
+	 <p>The Signal Protocol is regarded as the gold standard in encrypted messaging, enough to be adopted by WhatsApp, Google Allo and Facebook Messenger. The Signal Protocol allows for:</p>
+	 <ul>
+	  <li>Forward secrecy: past messages cannot be decrypted, and the key used to encrypted messages is changed constantly.</li>
+	  <li>Identity verification</li>
+	  <li>Designed to work in an asyncronous environment, meaning it recognizes somebody might be offline.</li>
+	 </ul>
 	 <p>Registering is easy - all you need is a phone number where you can receive a text message or phone call.</p>
 	 <h2 class="center-align">Mobile</h2>
 	 <ul class="collection">
