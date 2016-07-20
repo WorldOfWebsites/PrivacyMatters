@@ -6,5 +6,5 @@ var tipuesearch ={"pages":[
 	{"title": "Tor", "text": "", "tags": "tor, the onion router, anonymous web, crypto, encryption, cryptography", "url": "tools/tor/index.html"},
 	{"title": "PGP", "text": "", "tags": "crypto, cryptography, pgp, pretty good privacy, email encryption", "url": "tools/pgp/index.html"},
 	{"title": "Cryptography", "text": "", "tags": "encryption, crypto, cryptography,", "url": "crypto/index.html"},
-	{"title": "Media for the Layperson", "text": "", "tags": "media for the layperson, media, videos, external, crypto, encryption, cryptography", "url": "tools/signal/index.html"},
+	{"title": "Media for the Layperson", "text": "", "tags": "media for the layperson, media, videos, external, crypto, encryption, cryptography", "url": "mediaforthelayperson/index.html"},
 ]};

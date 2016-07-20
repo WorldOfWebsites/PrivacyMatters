@@ -7,6 +7,7 @@
  <meta name="theme-color" content="#1a237e">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link href="../../tipuesearch/tipuesearch.css" rel="stylesheet">
  <link rel="stylesheet" href="../../css/img.css">
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
@@ -19,6 +20,9 @@
  </div>
  <nav class="nav-wrapper indigo darken-4">
   <ul id="slide-out" class="side-nav">
+   <form action="../../search.html">
+    <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+   </form>
    <li><a href="../../privacy/index.html">Privacy</a></li>
    <li><a href="../../crypto/index.html">Cryptography</a></li>
    <li><a href="../../tools/index.html">Tools</a></li>
@@ -27,6 +31,18 @@
   <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
   <span class="brand-logo">SILENCE</span>
  </nav>
+ <div class="row hide-on-med-and-down">
+  <div class="col s12 m12 l12">
+   <div class="card">
+    <div class="card-content">
+     <h1 class="center-align">Search</h1>
+     <form action="../../search.html">
+      <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+     </form>
+    </div>
+   </div>
+  </div>
+ </div>
  <div class="row">
   <div class="col s12 m12 l12">
    <div class="card">
