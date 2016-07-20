@@ -3,14 +3,18 @@
 <head>
  <title>Privacy Matters | Search Results</title>
  <meta name="charset" content="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
  <script src="tipuesearch/tipuesearch_content.js"></script>
  <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
  <script src="tipuesearch/tipuesearch_set.js"></script>
  <script src="tipuesearch/tipuesearch.min.js"></script>
+ <script src="js/sidenav.js"></script>
 </head>
 <body>
+ <div class="indigo darken-4 center-align"> <a href="../index.html"><i class="material-icons white-text medium">home</i></a> </div>
+ <nav class="nav-wrapper indigo darken-4"> <ul class="right hide-on-med-and-down"> <li><a href="privacy/index.html">Privacy</a></li> <li><a href="crypto/index.html">Cryptography</a></li> <li><a href="tools/index.html">Tools</a></li> <li><a href="mediaforthelayperson/index.html">Media for the Layperson</a></li> </ul> <ul id="slide-out" class="side-nav"> <form action="search.html"> <input type="text" name="q" id="tipue_search_input" autocomplete="off" required> </form> <li><a href="privacy/index.html">Privacy</a></li> <li><a href="crypto/index.html">Cryptography</a></li> <li><a href="tools/index.html">Tools</a></li> <li><a href="mediaforthelayperson/index.html">Media for the Layperson</a></li> </ul> <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a> <span class="brand-logo">PRIVACY MATTERS!</span> </nav>
  <form action="search.html">
   <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
  </form>
