@@ -7,4 +7,6 @@ var tipuesearch ={"pages":[
 	{"title": "PGP", "text": "A page about the PGP (Pretty Good Privacy) encryption software.", "tags": "cryptography pgp pretty good privacy email encryption", "url": "tools/pgp/index.html"},
 	{"title": "Cryptography", "text": "A page explaining cryptography.", "tags": "encryption cryptography", "url": "crypto/index.html"},
 	{"title": "Media for the Layperson", "text": "A list of media to explain related concepts relevent to this issue.", "tags": "media for the layperson videos external encryption cryptography youtube last week tonight", "url": "mediaforthelayperson/index.html"},
+	{"title": "Tox", "text": "A page about Tox, a peer-to-peer encrypted text and audio/video calling solution.", "tags": "encryption peer to tox cryptography audio video calling calls encrypted chats private", "url": "privacy/index.html"},
+
 ]};
