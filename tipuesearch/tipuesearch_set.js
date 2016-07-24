@@ -8,7 +8,7 @@ http://www.tipue.com/search
 
 // Site index
 
-var tipuesearch_pages = ["https://worldofwebsites.github.io/PrivacyMatters/", "https://worldofwebsites.github.io/PrivacyMatters/tools", "https://worldofwebsites.github.io/PrivacyMatters/privacy", "https://worldofwebsites.github.io/PrivacyMatters/mediaforthelayperson", "https://worldofwebsites.github.io/PrivacyMatters/crypto", "https://worldofwebsites.github.io/PrivacyMatters/tools/signal", "https://worldofwebsites.github.io/PrivacyMatters/tools/pgp", "https://worldofwebsites.github.io/PrivacyMatters/tools/silence", "https://worldofwebsites.github.io/PrivacyMatters/tools/tox", "https://worldofwebsites.github.io/PrivacyMatters/tools/tor",];
+var tipuesearch_pages = ["https://worldofwebsites.github.io/PrivacyMatters/", "https://worldofwebsites.github.io/PrivacyMatters/tools/index.html/", "https://worldofwebsites.github.io/PrivacyMatters/privacy/index.html/", "https://worldofwebsites.github.io/PrivacyMatters/mediaforthelayperson/index.html/", "https://worldofwebsites.github.io/PrivacyMatters/crypto/index.html/", "https://worldofwebsites.github.io/PrivacyMatters/tools/signal/index.html/", "https://worldofwebsites.github.io/PrivacyMatters/tools/pgp/index.html/", "https://worldofwebsites.github.io/PrivacyMatters/tools/silence/index.html/", "https://worldofwebsites.github.io/PrivacyMatters/tools/tox/index.html/", "https://worldofwebsites.github.io/PrivacyMatters/tools/tor/index.html/",];
 
 /*
 Stop words
