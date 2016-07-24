@@ -6,6 +6,9 @@ Tipue Search is released under the MIT License
 http://www.tipue.com/search
 */
 
+// Site index
+
+var tipuesearch_pages = ["https://worldofwebsites.github.io/PrivacyMatters/", "https://worldofwebsites.github.io/PrivacyMatters/tools", "https://worldofwebsites.github.io/PrivacyMatters/privacy", "https://worldofwebsites.github.io/PrivacyMatters/mediaforthelayperson", "https://worldofwebsites.github.io/PrivacyMatters/crypto", "https://worldofwebsites.github.io/PrivacyMatters/tools/signal", "https://worldofwebsites.github.io/PrivacyMatters/tools/pgp", "https://worldofwebsites.github.io/PrivacyMatters/tools/silence", "https://worldofwebsites.github.io/PrivacyMatters/tools/tox", "https://worldofwebsites.github.io/PrivacyMatters/tools/tor",];
 
 /*
 Stop words
