@@ -8,7 +8,7 @@ http://www.tipue.com/search
 
 // Site index
 
-var tipuesearch_pages = ["https://worldofwebsites.github.io/PrivacyMatters/", "tools/index.html/", "/privacy/index.html/", "mediaforthelayperson/index.html/", "crypto/index.html/", "tools/signal/index.html/", "tools/pgp/index.html/", "tools/silence/index.html/", "tools/tox/index.html/", "tools/tor/index.html/",];
+var tipuesearch_pages = ["https://worldofwebsites.github.io/PrivacyMatters/index.html/", "tools/index.html/", "/privacy/index.html/", "mediaforthelayperson/index.html/", "crypto/index.html/", "tools/signal/index.html/", "tools/pgp/index.html/", "tools/silence/index.html/", "tools/tox/index.html/", "tools/tor/index.html/",];
 
 /*
 Stop words
