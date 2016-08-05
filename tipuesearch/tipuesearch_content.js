@@ -9,4 +9,5 @@ var tipuesearch ={"pages":[
 	{"title": "Media for the Layperson", "text": "A list of media to explain related concepts relevent to this issue.", "tags": "media for the layperson videos external encryption cryptography youtube last week tonight", "url": "mediaforthelayperson/index.html"},
 	{"title": "Tox", "text": "A page about Tox, a peer-to-peer encrypted text and audio/video calling solution.", "tags": "encryption peer to tox cryptography audio video calling calls encrypted chats private", "url": "tools/tox/index.html"},
 	{"title": "The Problem With SMS", "text": "An explanation why SMS is an insecure means of communication.", "tags": "sms insecure problem ss7 flaws", "url": "theproblemwithsms/index.html"},
+	{"title": "Secure Passwords", "text": "Create secure,memorable passwords with Diceware.", "tags": "passwords secure diceware memorable easy guide", "url": "securepasswords/index.html"},
 ]};

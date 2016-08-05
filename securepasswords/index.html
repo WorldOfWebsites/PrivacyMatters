@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>Privacy Matters | Crypto</title>
+ <title>Privacy Matters | Secure Memorable Passwords</title>
  <meta name="charset" content="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="theme-color" content="#1a237e">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link rel="stylesheet" href="../css/twemoji-awesome.css">
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
  <script src="../js/sidenav.js"></script>
@@ -22,7 +23,6 @@
    <li><a href="../tools/index.html">Tools</a></li>
    <li><a href="../mediaforthelayperson/index.html">Media for the Layperson</a></li>
    <li><a href="../theproblemwithsms/index.html">The Problem With SMS</a></li>
-   <li><a href="../securepasswords/index.html">Secure Passwords</a></li>
   </ul>
   <ul id="slide-out" class="side-nav">
    <li>
@@ -35,25 +35,40 @@
    <li><a href="../crypto/index.html">Cryptography</a></li>
    <li><a href="../tools/index.html">Tools</a></li>
    <li><a href="../mediaforthelayperson/index.html">Media for the Layperson</a></li>
-   <li><a href="../theproblemwithsms/index.html">The Problem With SMS</a></li>
-   <li><a href="../securepasswords/index.html">Secure Passwords</a></li>
   </ul>
   <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-  <span class="brand-logo">CRYPTOGRAPHY</span>
+  <span class="brand-logo">SECURE MEMORABLE PASSWORDS</span>
  </nav>
  <div class="row hide-on-med-and-down">
-   <div class="col s12 m12 l12">
-    <div class="card">
-     <div class="card-content">
-      <h1 class="center-align">Search</h1>
-      <form action="../search.html">
-       <div class="row">
-        <div class="input-field col s12">
-         <input id="search tipue_search_input" name="q" autocomplete="off" type="text" required>
-         <label for="search">Search</label>
-       </div>
-      </form>
-     </div>
+  <div class="col s12 m12 l12">
+   <div class="card">
+    <div class="card-content">
+     <h1 class="center-align">Search</h1>
+     <form action="../search.html">
+      <div class="row">
+       <div class="input-field col s12">
+        <input id="search tipue_search_input" name="q" autocomplete="off" type="text" required>
+        <label for="search">Search</label>
+      </div>
+     </form>
+    </div>
+   </div>
+  </div>
+ </div>
+ </div>
+ <div class="row">
+  <div class="col s12 m12 l12">
+   <div class="card">
+    <div class="card-content">
+     <h1 class="center-align">Enter Diceware</h1>
+     <p>You can make a secure, random password easily. First off, get out of the password mentality, instead, think of <em>passphrase</em> since it encourages you to make a longer password. The method that is used is called Diceware.</p>
+     <p>You will need:</p>
+     <ul>
+      <li>A die</li>
+      <li>A copy of the Diceware list, get it <a href="http://world.std.com/%7Ereinhold/diceware.wordlist.asc">here</a></li>
+     </ul>
+     <p>That's all you need. The list contains 7776 words. Go ahead and open the Diceware word list in a new tab.</p>
+     <p>There are several implementaions of Diceware for the computer. If you know what you're doing, and are interested, take a look at <a href="https://github.com/search?utf8=%E2%9C%93&q=diceware"> these ones.</a></p>
     </div>
    </div>
   </div>
@@ -62,27 +77,10 @@
   <div class="col s12 m12 l12">
    <div class="card">
     <div class="card-content">
-	 <p>Cryptography is the scrambling of data, which can only be unlocked with a certain key. There are two types of cryptography: symmetric and asymmetric. You will find details for both types below.</p>
-	 <p><b>You can find tools/apps that apply encryption <a href="../tools/index.html">here</a></b></p>
-	</div>
-   </div>
-  </div>
- </div>
- <div class="row">
-  <div class="col s12 m6 l6">
-   <div class="card">
-    <div class="card-content">
-	 <h1 class="center-align">Symmetric Encryption</h1>
-	 <p>A symmetric cipher uses one key to encrypt and decrypt. This is much faster compared to asymmetric encryption. But there is the problem of exchanging the key, which can't just be sent away in the clear (unencrypted).</p>
-	</div>
-   </div>
-  </div>
-  <div class="col s12 m6 l6">
-   <div class="card">
-    <div class="card-content">
-	 <h1 class="center-align">Asymmetric Encryption</h1>
-	 <p>An asymmetric cipher, also known as public-key-cryptography uses two keys: a public key, used to encrypt data, and a private key used to decrypt. You can put the public key anywhere - you can only encrypt to it. The private key is the one you keep private, hence its name. PGP/GPG is an example of just that. But since encrypting data with this type of encryption is slow, especially with large amounts of data, PGP/GPG actually encrypts data with a symmetric key, known as a session key. That key is encrypted with the recipiant's public key and sent over.</p>
-	</div>
+     <h1 class="center-align">How it Works</h1>
+     <p>By now, the Dicware word list should be open. In the list, each word coressponds to a 5 digit number. You would take a die, and roll it 5 times, writing down each number you just rolled. So, lets say the first number that was rolled is <code>55366</code>. I will look it up, and in this case, the word is <code>stage</code>. That's the first word in the passphrase. Continue this process as many times as you like.</p>
+     <p>At this time, 7 words are recommended for the length of the passphrase. If you want some protection against advesaries of the future, go for more words.</p>  
+    </div>
    </div>
   </div>
  </div>
