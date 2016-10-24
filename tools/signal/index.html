@@ -71,6 +71,7 @@
 	  <li>Forward secrecy: past messages cannot be decrypted, and the key used to encrypted messages is changed constantly.</li>
 	  <li>Identity verification</li>
 	  <li>Designed to work in an asyncronous environment, meaning it recognizes somebody might be offline.</li>
+          <li>Disappearing messages</li>
 	 </ul>
 	 <p>Registering is easy - all you need is a phone number where you can receive a text message or phone call.</p>
 	 <h2 class="center-align">Mobile</h2>
@@ -89,8 +90,16 @@
 	  <li class="collection-item">The app will generate keys and begin syncing your contacts.</li>
 	 </ul>
 	 <p>The app will only sync <em>future</em> messages, since there was no desktop key to encrypt to, and the forward secrecy ensures that the keys to decrypt old messages do not exist anymore.</p>
+         <h2 class="center-align">Disappearing Messages</h2>
+         <p>Signal allows disappering messages to be sent, ranging from 5 seconds to 1 week. It is more for keeping a tidy message history. If your contact is your advesary, they can always modify the client to remove this function or screenshot or take a picture with another camera, so keep that in mind. Here's how to use disappearing messages.
+         <ul class="collection">
+          <li class="collection-item"><b>Android/Desktop:</b> Tap the 3 dots on the top right and choose "Disappearing Messages". <br><b>IOS:</b> Long-press on your contact's name to open converation settings. Flip the switch for "Disappearing Messages" on.</li>
+          <li class="collection-item"><b>Android/Desktop:</b> Looks through the list for your desired timer. Tap on OK to apply. On desktop, it applies 1 day as the timer by default. <br><b>IOS:</b> Drag the slider to choose your timer. It will show what you have chosen above the slider. Go back to the conversation view when done.</li>
+          <li class="collection-item">The conversation view will show an update message that says "You/<em>person</em> set disappearing messages to <em>n</em> seconds/minute(s)/hour(s)/week.<br>A clock icon will appear when disappearing messages are active in the top bar.<br>There will be an hourglass on each message, the more it empties, the less time you have to read it.</li>
+         </ul>
+         <p>When someone activates disappearing messages, it affects the other person or people in the group. They'll take on the same expiration timer you have set, and you will be affected by the timers they set as well.
    <p>If you want Signal to be truly private, you will need to change some settings. The Intercept has a great <a href="https://theintercept.com/2016/07/02/security-tips-every-signal-user-should-know/">article</a> on that subject.</p>
-	</div>
+    </div>
    </div>
   </div>
  </div>
