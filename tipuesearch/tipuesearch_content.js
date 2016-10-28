@@ -11,6 +11,5 @@ var tipuesearch ={"pages":[
 	{"title": "The Problem With SMS", "text": "An explanation why SMS is an insecure means of communication.", "tags": "sms insecure problem ss7 flaws", "url": "theproblemwithsms/index.html"},
 	{"title": "Secure Passwords", "text": "Create secure, memorable passwords with Diceware.", "tags": "passwords secure diceware memorable easy guide", "url": "securepasswords/index.html"},
 	{"title": "Ricochet", "text": "Chat securely and anonymously with Ricochet.", "tags": "tor ricochet cryptography private chat hidden services", "url": "tools/ricochet/index.html"},
+        {"title": "Tails", "text": "A secure operating system using Tor", "tags": "tor operating system privacy cryptography anonymity encryption", "url": "tools/tails/index.html"},
 ]};
-{"title": "Secure Passwords", "text": "Create secure,memorable passwords with Diceware.", "tags": "passwords secure diceware memorable easy guide", "url": "securepasswords/index.html"},
-	{"title": "Tails", "text": "A secure operating system using Tor", "tags": "tor operating system privacy cryptography anonymity encryption", "url": "tools/tails/index.html"},
