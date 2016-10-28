@@ -59,5 +59,62 @@
     </div>
    </div>
   </div>
+ <div class="row">
+  <div class="col s12 m12 l12">
+   <div class="card">
+    <div class="card-content">
+     <img class="responsive-img img-middle" src="tails_logo.png" alt="tails os logo"></img>
+     <p>Tails is a secure operating system that sends all traffic through the Tor network. It is installed and run off of a USB or DVD and is loaded onto RAM. The host computer's disk does not get used. If you <em>need</em> to stay anonymous, this is the OS you use. Edward Snowden and the journalists that worked wth him used it, for example.</p>
+     <p>Tails is based off of Debian and includes software such as:</p>
+     <ul>
+      <li>Tor Browser</li>
+      <li>GIMP</li>
+      <li>Pidgin</li>
+      <li>Icedove</li>
+      <li>GPG</li>
+     </ul>
+     <p>A full list of included software can be found <a href="https://tails.boum.org/doc/about/features/index.en.html">here</a>.</p>
+     <p>Tails is full of counter-surveillance software. When you shutdown Tails, or physically remove the boot device, it will wipe the RAM so that sensitive data cannot be extracted. You can also wipe individual files and/or free space on the system as well and it has a virtual keyboard you can use if you suspect there is a keylogger.</p>
+     <p>You can get Tails from</p>
+     <ol>
+      <li>The internet as an ISO</li>
+      <li>From a friend who has Tails (make sure they've properly verified it!)</li>
+     </ol>
+     <p>If you're installing from Debian, Ubuntu or Mine, your life just got a whole lot easier. You can get the Tails installer which will install Tails on your media of choice. Tails systems installed with the Tails Installer benefit from updates that don't require you to clone another ISO. You will also not need to have 2 USB sticks.</p>
+     <h2 class="center-align">Encrypted Persistant Storage</h2>
+     <p>You can create an encrypted persistant storage so you can store data that will remain on each boot. Anything not saved in the Persistant folder is lost when Tails is shutdown. You can configure it by goint to Applications > Tails > Configure Persistant Storage. It will ask you to provide a passphrase and to choose what to store. Personal Data is already enabled and you can choose to activate more options as needed. Everytime you make a change to what the persistant volume saves, you must restart Tails or that anonymous IM account you wanted to save will disappear.</p>
+     <h2 class="center-align">Tails Won't Boot</h2>
+     <p>Sometimes, Tails won't boot off the computer. You will need to access your BIOS or UEFI settings. Once you've went there, try:</p>
+     <ul>
+      <li>Changing the boot order so the computer checks for a bootable USB or DVD first.</li>
+      <li>Turning off secure boot. (UEFI devices only, pretty much anything that shipped with Windows 8 out of the box) Tails does not have a secure boot key like Windows or Ubuntu does. This does make the computer more at risk, so try this last.</li>
+      <li>Disable fast boot.</li>
+      <li>Try to start on Legacy BIOS or if already on that, try UEFI if you have it.</li>
+     </ul>
+     <p>More in depth details can be found in the installation assistant (at the next card).</p>
+    </div>
+   </div>
+  </div>  
+ </div>
+ <div class="row">
+  <div class="col s12 m12 l12">
+   <div class="card">
+    <div class="card-content">
+     <h1 class="center-align">Get Tails</h1>
+     <p>Tails has a guide to easily download, verify and install Tails. Just choose your operating system to begin. Also included here is documentation, which can also be found on the desktop of Tails.</p>
+     <ul>
+      <li><a class="waves-effect waves-effect-light btn red darken-1" href="https://tails.boum.org/install/"><i class="material-icons left">web</i>Tails Installation Assistant</a></li>
+      <br>
+      <li><a class="waves-effect waves-effect-light btn red darken-1" href="https://tails.boum.org/doc/index.en.html"><i class="material-icons left">book</i>Tails Documentation</a></li>
+     <ul>
+    </div>
+   </div>
+  </div>
+ </div>
+ <footer class="page-footer indigo darken-4">
+  <div class="footer-copyright white-text">
+   <p>Licensed under CC0 1.0. <a id="footer-link" class="white-text" href="https://github.com/WorldOfWebsites/PrivacyMatters">GitHub <i class="fa fa-github"></i></a>
+  </div>
+ </footer>
 </body>
 </html>
